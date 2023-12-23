@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Forum</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #3570f8;
+            color: white;
+            padding: 10px;
+        }
+
+        .menu-bar {
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+        }
+
+        .menu-bar a {
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .content-section {
+            display: flex;
+            flex: 1;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="to_change">
+        <div class="user-profile">
+            <img src="148644186.jpg" height="40vh" alt="Profile" class="profile-image" id="profileImage">
+            <div class="profile-menu" id="profileMenu">
+                <ul>
+                    <li><a href="#" id="viewProfile">View Profile</a></li>
+                    <li><a href="login2.html" id="logout">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <nav class="menu-bar">
+            <a href="posts.html" class="menu-link">Posts</a>
+            <a href="notice.html" class="menu-link">Notice</a>
+            <a href="events.html" class="menu-link">Upcoming Events</a>
+            <a href="collab.html" class="menu-link">Collaboration</a>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <div id="parentContent">
+            <!-- Content will be loaded here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Simple Forum</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

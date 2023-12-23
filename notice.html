@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notices</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #2f4dba;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .menu-bar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #2f4dba;
+            color: white;
+            padding: 10px;
+        }
+
+        .menu-bar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .notice-container {
+            display: flex;
+            flex-direction: column; /* Updated to display notices in a column */
+            align-items: center;
+            margin: 20px;
+        }
+
+        .notice-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            width: 80%;
+            box-sizing: border-box;
+        }
+
+        .notice-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .notice-description {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header>
+        <h1>Notices</h1>
+    </header> -->
+
+    <!-- <nav class="menu-bar">
+        <a href="posts.html" class="menu-link">Posts</a>
+        <a href="notice.html" class="menu-link">Notice</a>
+        <a href="events.html" class="menu-link">Upcoming Events</a>
+        <a href="collab.html" class="menu-link">Collaboration</a>
+    </nav> -->
+
+    <div class="notice-container">
+        <div class="notice-card">
+            <div class="notice-title">Electricity Maintenance</div>
+            <div class="notice-description">Today, there won't be electricity from 6:00 AM to 9:00 AM due to maintenance work. We apologize for any inconvenience caused.</div>
+        </div>
+
+        <div class="notice-card">
+            <div class="notice-title">Water Flow Disturbance</div>
+            <div class="notice-description">There might be certain disturbances in the flow of water today. Our team is working to resolve the issue. We appreciate your understanding.</div>
+        </div>
+    </div>
+
+</body>
+</html>

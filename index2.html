@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samadhan</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      .logo_div {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .logo {
+        width: 100px;
+        height: auto;
+      }
+
+      .header {
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .navbar a {
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        background-color: #4CAF50;
+        transition: background-color 0.3s;
+      }
+
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .navbar a.register {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+      }
+
+      .navbar a.register:hover {
+        background-color: #45a049;
+      }
+
+      /* Add a smooth transition effect on hover */
+      .navbar a {
+        transition: 0.3s;
+      }
+
+      /* Add a background color to the active link */
+      .navbar a.active {
+        background-color: #04aa6d;
+        color: white;
+      }
+
+      /* Style the input field and the submit button */
+      .register-form {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .register-form input[type=text], 
+      .register-form input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 5px;
+      }
+
+      .register-form button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .register-form button:hover {
+        background-color: #45a049;
+      }
+      .navbar {
+        background-color: #5691ff;
+        overflow: hidden;
+      }
+      .header {
+        text-align: center;
+        background-color: #5691ff;
+        color: white;
+        padding: 10px;
+      }
+
+      .fullscreen-image {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .hero_section {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .welcome-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-size: 24px;
+      }
+
+      .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        animation: fadeInUp 1s ease;
+      }
+
+      /* Footer animation */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Add hover effect for the links in the footer */
+      .footer a {
+        color: #4CAF50;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+
+      .footer a:hover {
+        color: #45a049;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <div class="logo_div">
+      <img src="./Emblem_of_Nepal.svg.png" class="logo" alt="Logo">
+    </div>
+    <div class="header">
+      <h1>Government of Nepal</h1>
+    </div>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="registercss.html" class="register">Register</a>
+      <a href="login2.html">Login</a>
+    </div>
+
+    <!-- Rest of your content goes here -->
+    <div class="fullscreen-image">
+        <img src="./0_531901899.jpg" class="hero_section" alt="Hero Image"/>
+
+      </div>
+
+      <!-- Footer section -->
+    <div class="footer">
+        <p>&copy; 2023 Your Website Name</p>
+        <div>
+          <a href="#home">Home</a> |
+          <a href="registercss.html" class="register">Register</a> |
+          <a href="login2.html">Login</a>
+        </div>
+      </div>
+  </body>
+</html>
